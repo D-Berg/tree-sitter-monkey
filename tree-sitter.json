@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "monkey",
+      "camelcase": "Monkey",
+      "title": "Monkey",
+      "scope": "source.monkey",
+      "file-types": [
+        "mon",
+        "mky"
+      ],
+      "injection-regex": "^monkey$",
+      "class-name": "TreeSitterMonkey"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Monkey grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Daniel Berg"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/D-Berg/tree-sitter-monkey.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
