@@ -11,7 +11,8 @@
         "mky"
       ],
       "injection-regex": "^monkey$",
-      "class-name": "TreeSitterMonkey"
+      "class-name": "TreeSitterMonkey",
+      "highlights": "queries/highlights.scm"
     }
   ],
   "metadata": {
